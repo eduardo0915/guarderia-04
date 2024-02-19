@@ -1,5 +1,5 @@
 /* Template: Corso - Free Training Course Landing Page Template
-   Author: Inovatik
+   Author: Eduardo Martinez
    Created: Nov 2019
    Description: Custom JS file
 */
@@ -50,7 +50,7 @@
 
 
     /* Countdown Timer - The Final Countdown */
-	$('#clock').countdown('2020/12/27 08:50:56') /* change here your "countdown to" date */
+	$('#clock').countdown('2024/12/27 08:50:56') /* change here your "countdown to" date */
 	.on('update.countdown', function(event) {
 		var format = '<span class="counter-number">%D<br><span class="timer-text">Days</span></span><span class="counter-number">%H<br><span class="timer-text">Hours</span></span><span class="counter-number">%M<br><span class="timer-text">Minutes</span></span><span class="counter-number">%S<br><span class="timer-text">Seconds</span></span>';
 		$(this).html(event.strftime(format));
